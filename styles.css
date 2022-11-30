@@ -1,0 +1,49 @@
+body {
+    background: #BFAA84;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.assignments {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.assignment {
+    width: 22%;
+    padding: 10px;
+    margin: 10px;
+    padding: 20px 10px;
+    background: whitesmoke;
+    border-radius: 20px;
+}
+
+.assignment img {
+    width: 200px;
+    max-height: 200px;
+    margin: 10px;
+    border: 4px dashed #ff0000;
+    display: block;
+    margin: auto;
+}
+
+.assignment img:hover{
+    border: 4px dashed white;
+}
+
+h1 {
+    color: #ff0000;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
